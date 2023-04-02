@@ -1,0 +1,1895 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'fr' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/marie/OneDrive/Bureau/My project (2)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55490
+Successfully changed project path to: C:/Users/marie/OneDrive/Bureau/My project (2)
+C:/Users/marie/OneDrive/Bureau/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6332] Host "[IP] 10.22.27.146 [Port] 0 [Flags] 2 [Guid] 2339977916 [EditorId] 2339977916 [Version] 1048832 [Id] WindowsEditor(7,PCAntonin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6332] Host "[IP] 10.22.27.146 [Port] 0 [Flags] 2 [Guid] 2339977916 [EditorId] 2339977916 [Version] 1048832 [Id] WindowsEditor(7,PCAntonin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 106.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marie/OneDrive/Bureau/My project (2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004823 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 112.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (557ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007750 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marie\OneDrive\Bureau\My project (2)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marie\OneDrive\Bureau\My project (2)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1158ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.3 KB). Loaded Objects now: 3526.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 4.240800 ms (FindLiveObjects: 0.302100 ms CreateObjectMapping: 0.094500 ms MarkObjects: 3.659000 ms  DeleteObjects: 0.183900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 179256.351750 seconds.
+  path: Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Textures
+  artifactKey: Guid(a7ef6fec2818ab64195828eee5f0c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Textures using Guid(a7ef6fec2818ab64195828eee5f0c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282462eb295bb8365d4c958df612e2fc') in 0.014528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067895 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_R.TGA
+  artifactKey: Guid(300acc0be6e47024690a4baa38095d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_R.TGA using Guid(300acc0be6e47024690a4baa38095d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1232345183e9d364a534df1a7e3e5281') in 0.095497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004933 seconds.
+  path: Assets/Assets/Old Sea Port/Trailer Camera.controller
+  artifactKey: Guid(5b79fabe5335e3c49a79f61353a34803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Trailer Camera.controller using Guid(5b79fabe5335e3c49a79f61353a34803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc88cadd86e36425f3c38b4c6d1c924') in 0.064690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003304 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Rooftiles_normal.png
+  artifactKey: Guid(3968a51f63f083440bb6cb07cba49d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Rooftiles_normal.png using Guid(3968a51f63f083440bb6cb07cba49d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f22b07f2a32803ae72b6c2d73b7ea93') in 0.070321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010845 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/MetalSurface.mat
+  artifactKey: Guid(4f477167fc0be5e4dab9a125b37c42ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/MetalSurface.mat using Guid(4f477167fc0be5e4dab9a125b37c42ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d2b066c861e1c2df870827b92f0765') in 0.087723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021376 seconds.
+  path: Assets/Assets/SkeletonWarrior/Mesh/SWShield.fbx
+  artifactKey: Guid(025ae4554eb92254989e33b389d97bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Mesh/SWShield.fbx using Guid(025ae4554eb92254989e33b389d97bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50d71b9a2041af88b9edb0f67d21603') in 0.095135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047546 seconds.
+  path: Assets/Assets/Monster_4/textures/t_plank_MetallicSmootness.png
+  artifactKey: Guid(1033e295e1ffc8d4090441fd141a71a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_plank_MetallicSmootness.png using Guid(1033e295e1ffc8d4090441fd141a71a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675a026c0da819cb3f2efbaad200bc71') in 0.024801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001301 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial
+  artifactKey: Guid(ee4bb0d1ce749cf44ac6dc2a56ad59f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial using Guid(ee4bb0d1ce749cf44ac6dc2a56ad59f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0239b7543d762cd328b75dcd42cf42') in 0.012183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Old Sea Port/Shaders
+  artifactKey: Guid(180244810760225438bcc6df1db1280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Shaders using Guid(180244810760225438bcc6df1db1280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d543b7552dbce7d9ff20ab0809799e4') in 0.008026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014388 seconds.
+  path: Assets/Assets/blood/Horror Assets/Materials/DeadBody_Mat.mat
+  artifactKey: Guid(e3f04facfd9880f46a264f3d36ee18d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/Materials/DeadBody_Mat.mat using Guid(e3f04facfd9880f46a264f3d36ee18d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baee634c9a61aa95840df0375892028') in 0.035090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034920 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials
+  artifactKey: Guid(ad476e0db80d4524fb030012fd58fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials using Guid(ad476e0db80d4524fb030012fd58fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fc39e9a31341befe7c99407adfa365') in 0.008233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003097 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_front.tif
+  artifactKey: Guid(e7a88268a460f384cbef52d988810865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_front.tif using Guid(e7a88268a460f384cbef52d988810865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd89922ff46a04f8e634d46fc8bcebbb') in 0.032991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003201 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Brick_Wall_Occlusion.png
+  artifactKey: Guid(947d2f8b002d964479658be1ede6c20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Brick_Wall_Occlusion.png using Guid(947d2f8b002d964479658be1ede6c20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2e2b7cc316fae05f82ec0f7b14b81a') in 0.016508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes/Textures
+  artifactKey: Guid(f292b2dcef9433248ba8741e403c6e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes/Textures using Guid(f292b2dcef9433248ba8741e403c6e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072a8fd3935185035d0065b30b29dbb4') in 0.002695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006213 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWShieldMtl_AmbientOcclusion.tga
+  artifactKey: Guid(f14a930d516b09745aa2410c0203dbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWShieldMtl_AmbientOcclusion.tga using Guid(f14a930d516b09745aa2410c0203dbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf37b8f038b39604784de98cdbcb90f') in 0.016128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002018 seconds.
+  path: Assets/Assets/blood/Horror Assets/Read me.txt
+  artifactKey: Guid(bdc34178ff149ae4b87ca771e0366d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/Read me.txt using Guid(bdc34178ff149ae4b87ca771e0366d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb8019de1af03854de2773fc4c64fec') in 0.016886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial
+  artifactKey: Guid(8e48a96595df5904da1626980936ebf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial using Guid(8e48a96595df5904da1626980936ebf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fa41afd54d563ac5a4b5d1182b76fb') in 0.007895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026289 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-3.exr
+  artifactKey: Guid(6bd987420f1a8334bb98098d8cb4c883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-3.exr using Guid(6bd987420f1a8334bb98098d8cb4c883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a871a54120b63ce366103b55a7ea8afc') in 0.028311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079219 seconds.
+  path: Assets/Assets/Monster_4/textures/t_body_ao.png
+  artifactKey: Guid(f8bf11f477e2b8542b1f77ee9e4981a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_body_ao.png using Guid(f8bf11f477e2b8542b1f77ee9e4981a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c972d165b8b8b8e7be01bb149c6312') in 0.019110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038096 seconds.
+  path: Assets/Assets/Old Sea Port/Materials
+  artifactKey: Guid(58f42fe41a2f0c341b7f39a35e42b033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Materials using Guid(58f42fe41a2f0c341b7f39a35e42b033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e50062b6651a149eacd9aca90ab439') in 0.003508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001625 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-8.exr
+  artifactKey: Guid(325068744a08ae84fac41b54971b231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-8.exr using Guid(325068744a08ae84fac41b54971b231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89c8540e89bbbd9e36303bad27aff02') in 0.022130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014673 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing.unity
+  artifactKey: Guid(f4fc660ad7cf6eb4eb8cd6d109f7608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing.unity using Guid(f4fc660ad7cf6eb4eb8cd6d109f7608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14806b421b045ea43af93c10ab32c9d8') in 0.010878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041346 seconds.
+  path: Assets/Assets/blood/medieval chest/textures
+  artifactKey: Guid(f770676b527fbc54bbe6d47524419c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/medieval chest/textures using Guid(f770676b527fbc54bbe6d47524419c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c57690a2f06b1aa0d56cc251f239ed8') in 0.008264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000960 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial
+  artifactKey: Guid(2d1b92c8292f3234baa92e29f307a81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial using Guid(2d1b92c8292f3234baa92e29f307a81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c701da42d27e78fb56a05e16c06e7f') in 0.009046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090795 seconds.
+  path: Assets/Assets/Monster_4/Mesh/sk_monster_4.fbx
+  artifactKey: Guid(2eb6dad61b9a7c14ea919f20f000c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/Mesh/sk_monster_4.fbx using Guid(2eb6dad61b9a7c14ea919f20f000c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebc2dbc6ae3b38aad5a74b13ef7c5c1') in 0.151822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018306 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials/planks_6.mat
+  artifactKey: Guid(b5548ab6df98d8e43abcb268eb1b938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials/planks_6.mat using Guid(b5548ab6df98d8e43abcb268eb1b938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4555d017612490c2ea8b536ffec17d5b') in 0.014305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001465 seconds.
+  path: Assets/Assets/SkeletonWarrior/Mesh
+  artifactKey: Guid(6f56f608835e7974799fd3ed8942ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Mesh using Guid(6f56f608835e7974799fd3ed8942ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0620e51ecffad7f2a6b05f718ef5b69f') in 0.008200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001765 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/LightningParticle.tif
+  artifactKey: Guid(06e4a78c75e10c145a9156e32089ec9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/LightningParticle.tif using Guid(06e4a78c75e10c145a9156e32089ec9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3df2dea26982071a2260b0aafdcc1e') in 0.012750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045388 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Med_box_01.FBX
+  artifactKey: Guid(18ce9342c786442408d15b750748b72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Med_box_01.FBX using Guid(18ce9342c786442408d15b750748b72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcd66ca1a8146b704ff596dd1f38ccb') in 0.022384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003927 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/FlameRoundGreyParticleSheet.tif
+  artifactKey: Guid(aa0907451008d784b8ef5b1c0900465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/FlameRoundGreyParticleSheet.tif using Guid(aa0907451008d784b8ef5b1c0900465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9a579cc03a16a407bde76578f5bcb') in 0.017068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039856 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared
+  artifactKey: Guid(d20707e94d6582c4bb82c70bda7918f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared using Guid(d20707e94d6582c4bb82c70bda7918f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8efa7f2947a23926e2347d7aa8a8805') in 0.006238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040522 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader
+  artifactKey: Guid(5e0b7dc1782a986469ed1446388360f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader using Guid(5e0b7dc1782a986469ed1446388360f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f155cf1b411d78730a72fb769b82ce42') in 0.009145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012339 seconds.
+  path: Assets/Assets/StickGrenadeModel/Assets/Textures
+  artifactKey: Guid(0fa6a5da06f7b6e46ab49368f99e5988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel/Assets/Textures using Guid(0fa6a5da06f7b6e46ab49368f99e5988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5bb578987eee763986be30027fa217') in 0.002145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001355 seconds.
+  path: Assets/Assets/blood/Horror Assets/StaffOfPain/readme_first.txt
+  artifactKey: Guid(8185c24536891794480291e33d4b1ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/StaffOfPain/readme_first.txt using Guid(8185c24536891794480291e33d4b1ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f050aac977bd0c9212c525f7dc2641a') in 0.008093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057121 seconds.
+  path: Assets/Assets/Monster_4/textures/t_plank_Normal_OpenGL.png
+  artifactKey: Guid(60cd67a688b3a224a855e1dc89ea249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_plank_Normal_OpenGL.png using Guid(60cd67a688b3a224a855e1dc89ea249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0852c45aa2133d6379151c9c987ba1') in 0.018808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021302 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime02.mat
+  artifactKey: Guid(dd4ae9458a7d1694c8fa66432938e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime02.mat using Guid(dd4ae9458a7d1694c8fa66432938e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3368f8250adb6adc39d199a9338b8864') in 0.041925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006466 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_N.tga
+  artifactKey: Guid(2c2941ed45c0e7f4486cb3adc97f188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_N.tga using Guid(2c2941ed45c0e7f4486cb3adc97f188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a387ab3f8bc4e271f320972b7378e12') in 0.016266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029826 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Tile01.mat
+  artifactKey: Guid(c062415a802b2f846916a90dadc80f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Tile01.mat using Guid(c062415a802b2f846916a90dadc80f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e401a0f4b3485d1d1a193aa3780e2561') in 0.033692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037671 seconds.
+  path: Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Scenes/SampleScene.unity
+  artifactKey: Guid(e6fcefb94d37180459af0803c84b7955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Scenes/SampleScene.unity using Guid(e6fcefb94d37180459af0803c84b7955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a247f00e3b3847e3b24a78c4052daf') in 0.008228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003889 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/Lightmap-0_comp_dir.png
+  artifactKey: Guid(3120b0dc834728e41bf10e3cf988dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/Lightmap-0_comp_dir.png using Guid(3120b0dc834728e41bf10e3cf988dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cedc6e2fb179162b37ecf374310289f') in 0.033515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001894 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Brick_Wall_Metallic 2.png
+  artifactKey: Guid(750737eca5e65114fb9043ec4733623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Brick_Wall_Metallic 2.png using Guid(750737eca5e65114fb9043ec4733623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e991696db7900478b68513357791afd') in 0.018179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021328 seconds.
+  path: Assets/Assets/Old Sea Port/textures/planks_1_Metallic 2.png
+  artifactKey: Guid(d4f32d4cbb3702e48b4af45a1ba4f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/planks_1_Metallic 2.png using Guid(d4f32d4cbb3702e48b4af45a1ba4f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39501b08e8c7bb0b6334c5636aaa4b58') in 0.014339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001438 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Animations/GunIdle.anim
+  artifactKey: Guid(1a8355c50c57ad748b5180c061c4f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Animations/GunIdle.anim using Guid(1a8355c50c57ad748b5180c061c4f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26741f42b32149647a873167a143e1bd') in 0.011337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034787 seconds.
+  path: Assets/Assets/Old Sea Port/textures/planks_1.png
+  artifactKey: Guid(070cb3edcb351cd4ab6db4c57bfd8fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/planks_1.png using Guid(070cb3edcb351cd4ab6db4c57bfd8fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e08dc1de19098bbc7d7497ca37da5b') in 0.016928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001067 seconds.
+  path: Assets/Assets/Skull Platform/Particles/Textures
+  artifactKey: Guid(c7ca3aade021ab143bd91cca15900f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/Particles/Textures using Guid(c7ca3aade021ab143bd91cca15900f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724abb1c01174a6f190b154d073a505f') in 0.002390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009389 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/StoneSurface.mat
+  artifactKey: Guid(3eb079016c4106b41bc3f19de570f770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/StoneSurface.mat using Guid(3eb079016c4106b41bc3f19de570f770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b6ea04157580fff9f4b70b1fa00ebb') in 0.017754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001459 seconds.
+  path: Assets/Assets/Old Sea Port/Materials/Cobblestone_Shiny.mat
+  artifactKey: Guid(b5ccf7076bf73e541a3e23897a2a3092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Materials/Cobblestone_Shiny.mat using Guid(b5ccf7076bf73e541a3e23897a2a3092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297e8cf0e56e4e0aad1c2acaa75d05d7') in 0.025887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009567 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials
+  artifactKey: Guid(9bbcfdc39f51fee4a936aab8f83819f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials using Guid(9bbcfdc39f51fee4a936aab8f83819f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d61bf803263e5728974e5011f7bf1b') in 0.006756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025827 seconds.
+  path: Assets/Assets/Monster_4/textures/t_plank_Base_color.png
+  artifactKey: Guid(79ce79b6dd80c2d4bbc78ca9409a85ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_plank_Base_color.png using Guid(79ce79b6dd80c2d4bbc78ca9409a85ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42392e5da30ae46fbe865c636f9597b6') in 0.016160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028959 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWShieldMtl_AlbedoTransparency.tga
+  artifactKey: Guid(3b27533eed1f4604597790fd16cbade9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWShieldMtl_AlbedoTransparency.tga using Guid(3b27533eed1f4604597790fd16cbade9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6189282bd246f98b971e5a4dd5de46') in 0.016092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/Assets/SkeletonWarrior
+  artifactKey: Guid(2c71e66768a7ba849ae91e47045be9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior using Guid(2c71e66768a7ba849ae91e47045be9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a58a05b46d58700325dd58cc052fb44') in 0.007158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009786 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/Background.mat
+  artifactKey: Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/Background.mat using Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfe183cc8b156e594b8fb0a00a0937d') in 0.015500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000993 seconds.
+  path: Assets/Assets/Skull Platform/Particles
+  artifactKey: Guid(e85d49b31b5e1d746abe06e76e444cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/Particles using Guid(e85d49b31b5e1d746abe06e76e444cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a826c90efe945f2bade15133ff452f') in 0.008456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009318 seconds.
+  path: Assets/Assets/StickGrenadeModel/Assets/Textures/StickGrenadeColor.png
+  artifactKey: Guid(99ba09d549d02914fae521e86549a9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel/Assets/Textures/StickGrenadeColor.png using Guid(99ba09d549d02914fae521e86549a9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cc68735a8c31fddf4e1ba1f8704ad3') in 0.016967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030469 seconds.
+  path: Assets/Assets/Old Sea Port/Trailer Camera.anim
+  artifactKey: Guid(5298be6b34ff1b24b8e9e0130c104b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Trailer Camera.anim using Guid(5298be6b34ff1b24b8e9e0130c104b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf2240ee6eb2ba64b3d13e8bc8159fc') in 0.059472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials/Log_End_1.mat
+  artifactKey: Guid(e7f67564c8a0ae849b02049245a43b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials/Log_End_1.mat using Guid(e7f67564c8a0ae849b02049245a43b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc9eb07bb39bca48c8e64620a113f36') in 0.020461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002659 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-1.exr
+  artifactKey: Guid(cfeb876c0ac00c547b66d782d243ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-1.exr using Guid(cfeb876c0ac00c547b66d782d243ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8148fbd8bff2c0cc00f71804ce94103a') in 0.021274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083586 seconds.
+  path: Assets/Assets/Skull Platform/_source/Meshes
+  artifactKey: Guid(4c52a7a4be57bbe4a861ccad79393248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/_source/Meshes using Guid(4c52a7a4be57bbe4a861ccad79393248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f99b177ebcd27c4fa77816847195544') in 0.006745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Assets/blood/Horror Assets/StaffOfPain/Textures
+  artifactKey: Guid(3de66ba57f385714bb50692a9ded09b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/StaffOfPain/Textures using Guid(3de66ba57f385714bb50692a9ded09b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78175e7019e171200ef136870f19586') in 0.002069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Assets/Monster_4/materials/m_body.mat
+  artifactKey: Guid(67239b9df1c9ff740b5de1e742f4ab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/materials/m_body.mat using Guid(67239b9df1c9ff740b5de1e742f4ab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adb3d4ae666d2cb8864ca4c4c8ef5c8') in 0.027176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002747 seconds.
+  path: Assets/Assets/StickGrenadeModel/Assets/Textures/StickGrenadeNormalMap.png
+  artifactKey: Guid(0ad4c36a8424ed64485d6a475ab6439a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel/Assets/Textures/StickGrenadeNormalMap.png using Guid(0ad4c36a8424ed64485d6a475ab6439a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef33c72e64d766d6e8cdd80391ce238b') in 0.016166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040732 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Controllers/Gun.controller
+  artifactKey: Guid(2be2206e6d3865742a99fd2f946e6378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Controllers/Gun.controller using Guid(2be2206e6d3865742a99fd2f946e6378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3594a3f1db62cdc6f7dcd9fedc6f3377') in 0.010137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003555 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/SmokePuffParticleSheet.png
+  artifactKey: Guid(d3c9883e2f0eef44f9241b6f8428f9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/SmokePuffParticleSheet.png using Guid(d3c9883e2f0eef44f9241b6f8428f9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c247f237e66dcb84939a286b4bb91a00') in 0.020095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002235 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp_Off.mat
+  artifactKey: Guid(43e1eaee58e6e1f42a8e6d905a406298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp_Off.mat using Guid(43e1eaee58e6e1f42a8e6d905a406298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014390ef5d90c5f53817c35f9c7bdc9e') in 0.058988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007229 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/wood_tiled_02_o.tif
+  artifactKey: Guid(3f61242b237377e4590f4e6d1c869079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/wood_tiled_02_o.tif using Guid(3f61242b237377e4590f4e6d1c869079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0151ce9a8f5f3a16fa7f5bc360dc92') in 0.022464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013387 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials
+  artifactKey: Guid(d55d5882cc8028a459a0a5793070b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Materials using Guid(d55d5882cc8028a459a0a5793070b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9dfa80ac52cc6621fcf637dc32d56a') in 0.002468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002031 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Cobblestone_Occlusion.png
+  artifactKey: Guid(dcfbeedfb82fa234ba6e7ae06500b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Cobblestone_Occlusion.png using Guid(dcfbeedfb82fa234ba6e7ae06500b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdac38e08fd1226f14ac1dd4fad71b26') in 0.015051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001219 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Sprites
+  artifactKey: Guid(ed120e6699ca12c45999f7ff2eaf1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Sprites using Guid(ed120e6699ca12c45999f7ff2eaf1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200e4cbabc0d4f3c3d0959c5239d6915') in 0.008869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001644 seconds.
+  path: Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Prefabs/BARREL_1.prefab
+  artifactKey: Guid(aedcffa39a561f4468931df7092cd09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Prefabs/BARREL_1.prefab using Guid(aedcffa39a561f4468931df7092cd09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405db72a2451bbf100ce8bb42c171a61') in 0.034685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025888 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp.mat
+  artifactKey: Guid(6a26c29b0186b3949a52130085310c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp.mat using Guid(6a26c29b0186b3949a52130085310c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc73b5dbf4ef9a015f32ebe7d54fb717') in 0.028513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018477 seconds.
+  path: Assets/Assets/Old Sea Port/textures/fence_1.png
+  artifactKey: Guid(a29d97ef1cbfdd2448b81f9e41c18533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/fence_1.png using Guid(a29d97ef1cbfdd2448b81f9e41c18533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0370e1bfbaa71347cdf0d401656ff4') in 0.018646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002857 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-7.exr
+  artifactKey: Guid(f07a05ef08f5afa438da798b2196d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-7.exr using Guid(f07a05ef08f5afa438da798b2196d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560f2ea68c09637397c9ba1c21ce9a12') in 0.017860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008187 seconds.
+  path: Assets/Assets/Old Sea Port/textures/planks_1_normal.png
+  artifactKey: Guid(35097fcb9a018ac49b6657d0b8138799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/planks_1_normal.png using Guid(35097fcb9a018ac49b6657d0b8138799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b1a5ea9a71ebed64d879106a146ddc') in 0.020547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002601 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-5.exr
+  artifactKey: Guid(cf08895db14a0754cae82edd728cdc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-5.exr using Guid(cf08895db14a0754cae82edd728cdc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66691ac309333bd1c9d1f81b5dbd444a') in 0.017290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016446 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Log_End_1.png
+  artifactKey: Guid(48e5cdcdbcbc64f41ac71a1916835188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Log_End_1.png using Guid(48e5cdcdbcbc64f41ac71a1916835188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcc398d700545e74ce0f2aa1ce589ab') in 0.015797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009915 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWSwordMtl_AlbedoTransparency.tga
+  artifactKey: Guid(a4f673b04878d4544acdac504dc4c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWSwordMtl_AlbedoTransparency.tga using Guid(a4f673b04878d4544acdac504dc4c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea084ab6966bdefef701f128b4a8dbf') in 0.017015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004574 seconds.
+  path: Assets/Assets/Monster_4/materials/m_plank.mat
+  artifactKey: Guid(84994e33d6b89234f8bb0e04e845e3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/materials/m_plank.mat using Guid(84994e33d6b89234f8bb0e04e845e3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beedc55d43a38e55828dfe036cba7cb0') in 0.028971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020859 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Profiles
+  artifactKey: Guid(6f426c4892a2cbe45b857446a86027c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Profiles using Guid(6f426c4892a2cbe45b857446a86027c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f340752c2b999e4c67fd3e6d19a2ff') in 0.007195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001850 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-2.exr
+  artifactKey: Guid(6bd65db63781f6d4c9925eb9daa84e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-2.exr using Guid(6bd65db63781f6d4c9925eb9daa84e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f45df10f936f5a20e7f2db2af4ea21') in 0.018115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018052 seconds.
+  path: Assets/Assets/Monster_4/materials
+  artifactKey: Guid(9eaba96013ab6ae4fb116b3dab7a751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/materials using Guid(9eaba96013ab6ae4fb116b3dab7a751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9476aabf903552e1ff98e19927fb92d') in 0.006329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023093 seconds.
+  path: Assets/Assets/SkeletonWarrior/Mesh/SWSword.fbx
+  artifactKey: Guid(8093efb080b8e3746bd1a8f728ea71d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Mesh/SWSword.fbx using Guid(8093efb080b8e3746bd1a8f728ea71d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621fdd0edaf53967817a015009b5a5c9') in 0.037096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007514 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Cobblestone.png
+  artifactKey: Guid(3ab7f48c6fb4a1746be385924854bd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Cobblestone.png using Guid(3ab7f48c6fb4a1746be385924854bd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b6dc4f7df287db4cff8ea218454baa') in 0.016777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008123 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/wood_tiled_02_a.tif
+  artifactKey: Guid(b81b746ea3b5a4f4ab92a152e3b0b01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/wood_tiled_02_a.tif using Guid(b81b746ea3b5a4f4ab92a152e3b0b01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00daed026f69960705d356cc72e9215c') in 0.017795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050267 seconds.
+  path: Assets/Assets/Old Sea Port/scenes
+  artifactKey: Guid(f089578880e3cac4684a3bfbdf27164f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes using Guid(f089578880e3cac4684a3bfbdf27164f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f46b1f1c4f2ab193ab5ec83927621eb') in 0.006810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001385 seconds.
+  path: Assets/Assets/blood/Horror Assets/StaffOfPain/Scenes/testSceneSettings.lighting
+  artifactKey: Guid(c8368cf94f1878145a8530426c650a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/StaffOfPain/Scenes/testSceneSettings.lighting using Guid(c8368cf94f1878145a8530426c650a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'ff98ce988e53e8d505467319715e1cdc') in 0.011323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019342 seconds.
+  path: Assets/Assets/blood/Horror Assets/StaffOfPain
+  artifactKey: Guid(9c57f02431de5c346a3c7e3db9b94adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/StaffOfPain using Guid(9c57f02431de5c346a3c7e3db9b94adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e21b2d04edcbb6c37c430a2a0163ca') in 0.007772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001632 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_down.tif
+  artifactKey: Guid(8ca0735e520b5fc40a4e41b42fc288ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_down.tif using Guid(8ca0735e520b5fc40a4e41b42fc288ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada4c26fc5dd5936d7d1e692982eda24') in 0.019095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059367 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_C.tga
+  artifactKey: Guid(f1de0460afd04b642a261aef2e069024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_C.tga using Guid(f1de0460afd04b642a261aef2e069024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9a9c67f29a382a43cb7b8e1400231d') in 0.021206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008001 seconds.
+  path: Assets/Assets/SimpleSkeleton/material/texture/SimpleSkeleton_color.png
+  artifactKey: Guid(6000463ea995dd74485957e28991db2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleSkeleton/material/texture/SimpleSkeleton_color.png using Guid(6000463ea995dd74485957e28991db2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0368d212e7ccb82912bc402142f521b') in 0.019553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/blood/Horror Assets
+  artifactKey: Guid(7574f5114bcbca64aa363283d5c93696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets using Guid(7574f5114bcbca64aa363283d5c93696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bd9d6762fd10845f40cc54be988a75') in 0.008683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001412 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/SandSurface.mat
+  artifactKey: Guid(26bc8648a85c6b041a5d5b00ca61062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/SandSurface.mat using Guid(26bc8648a85c6b041a5d5b00ca61062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c77e22c8a3755247351d3f41f5c49a') in 0.041471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012973 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G_N.png
+  artifactKey: Guid(96068c214ec55854a9b721fffd6570a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G_N.png using Guid(96068c214ec55854a9b721fffd6570a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db0d5d7c0ba31b72ab5ae84d2e62b71') in 0.016484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005222 seconds.
+  path: Assets/Assets/Old Sea Port/textures/dirt_1.png
+  artifactKey: Guid(b075d48064d55484f8f593efb6941674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/dirt_1.png using Guid(b075d48064d55484f8f593efb6941674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b586cb3be27922f5dfce17c1de073f2') in 0.017677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027242 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_N.tga
+  artifactKey: Guid(d1208c33c57b6694aa1982e7193cba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_N.tga using Guid(d1208c33c57b6694aa1982e7193cba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf141786584932d9dfcb0f81bdcb942e') in 0.021022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Assets/StickGrenadeModel/Assets/Materials
+  artifactKey: Guid(f93db6ba2237be049982117aa23afb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel/Assets/Materials using Guid(f93db6ba2237be049982117aa23afb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c404711931083daa522a38d3a13442b3') in 0.002149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Assets/Monster_4
+  artifactKey: Guid(11110217106f0694d90e2a9ad0940b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4 using Guid(11110217106f0694d90e2a9ad0940b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b570e6785701b0f6b03b08cf6bbf6f93') in 0.008036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009501 seconds.
+  path: Assets/Assets/blood/Horror Assets/StaffOfPain/FBX
+  artifactKey: Guid(713f0779ea631074192cb05a0ac9d3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/StaffOfPain/FBX using Guid(713f0779ea631074192cb05a0ac9d3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2b3d26f58e4fa79dfd1305ad2d1cea') in 0.007037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012439 seconds.
+  path: Assets/Assets/blood/Horror Assets/Textures
+  artifactKey: Guid(61aeb7351e31e414cbc586c25106b8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/Textures using Guid(61aeb7351e31e414cbc586c25106b8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ad3d60320bc703e1937f5d5bc792d9') in 0.001794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006554 seconds.
+  path: Assets/Assets/SimpleSkeleton/material/texture/flooring.png
+  artifactKey: Guid(2ec9a98eafa41444e8b4d8488047c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleSkeleton/material/texture/flooring.png using Guid(2ec9a98eafa41444e8b4d8488047c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5030a0ea5bedcf3d3fbbb50c3132a959') in 0.013555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010285 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_C.tga
+  artifactKey: Guid(ef4dc55c98f1e38479f254791f71a51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_C.tga using Guid(ef4dc55c98f1e38479f254791f71a51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4be5660333f46f32bc9fe312d976a1d') in 0.016810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/Assets/Old Sea Port/mesh
+  artifactKey: Guid(0e2952b77591d60419ff08838a4e6c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh using Guid(0e2952b77591d60419ff08838a4e6c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cba84598523a101f55a90711fcabed9') in 0.007834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/DarkDefault.mat
+  artifactKey: Guid(2062b6d0a7a2d4f46b4689198aedadd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/DarkDefault.mat using Guid(2062b6d0a7a2d4f46b4689198aedadd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d31a36214b9bf8b6671b5f3c5fadc18') in 0.014821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models
+  artifactKey: Guid(dfcbaf66129769e43bf64d5b73ffa859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models using Guid(dfcbaf66129769e43bf64d5b73ffa859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f9eadd24942ef279351332e3c382d0') in 0.006691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001664 seconds.
+  path: Assets/Assets/StickGrenadeModel/Assets/Materials/Skybox.mat
+  artifactKey: Guid(dc8ca7f071840bb429ac1d39be8c8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel/Assets/Materials/Skybox.mat using Guid(dc8ca7f071840bb429ac1d39be8c8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1aecaffde6bdb807cd57fcf407425a') in 0.072003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005138 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime01_C.mat
+  artifactKey: Guid(8a7f3e3f34602944ca9b0a89e0f7be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime01_C.mat using Guid(8a7f3e3f34602944ca9b0a89e0f7be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbc3aea8f9758f91bd4e5d3ebc07350') in 0.025043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023670 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/stairs_wood_spiral.fbx
+  artifactKey: Guid(a3983032df6f6a4498ab985c4088f21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/stairs_wood_spiral.fbx using Guid(a3983032df6f6a4498ab985c4088f21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdebc6b22c5fd11da1ff564b88917e1') in 0.032422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010206 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_N.tga
+  artifactKey: Guid(1187c62cb03f7a243bd9b242817bc2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_N.tga using Guid(1187c62cb03f7a243bd9b242817bc2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aeecd730a6d8ff908891ed7d7c4fa6') in 0.021975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013252 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWSwordMtl_MetallicSmoothness.tga
+  artifactKey: Guid(65c27e65384400542b98809d7b543c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWSwordMtl_MetallicSmoothness.tga using Guid(65c27e65384400542b98809d7b543c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dfa9496c4967a4cd61e746f9c6f3c7') in 0.017547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004823 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_R.TGA
+  artifactKey: Guid(dbe39981618f6f141b9a6aa20aa1ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_R.TGA using Guid(dbe39981618f6f141b9a6aa20aa1ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed31f8b06d66aed7e5085e0a01931cc7') in 0.013478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043758 seconds.
+  path: Assets/Assets/Monster_4/textures/t_body_Base_color.png
+  artifactKey: Guid(4e2ef67772c59434ab790e330a9917ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_body_Base_color.png using Guid(4e2ef67772c59434ab790e330a9917ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed212491a00ee391c95832aa7ccbbd31') in 0.016828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004407 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Barrel_Normal.png
+  artifactKey: Guid(e287ae967fe30984599057cde5b3100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Barrel_Normal.png using Guid(e287ae967fe30984599057cde5b3100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3293dd2a29c40352af3ab03adef71df') in 0.014790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013150 seconds.
+  path: Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Textures/BARREL_None_AlbedoTransparency.png
+  artifactKey: Guid(8a7b413d98bddb147ad135ff5c31ec30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Textures/BARREL_None_AlbedoTransparency.png using Guid(8a7b413d98bddb147ad135ff5c31ec30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951e02e2692ee310d339764aaedf9209') in 0.016135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/blood/Dungeon Ground
+  artifactKey: Guid(7ce7036e1ce2c1a42ad9a020195dee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dungeon Ground using Guid(7ce7036e1ce2c1a42ad9a020195dee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fbe597694ca908a861db0492a99c10') in 0.008427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003467 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/StoneNormals.tif
+  artifactKey: Guid(e6b70229308faa64880eac4945d59f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/StoneNormals.tif using Guid(e6b70229308faa64880eac4945d59f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8596113613d8f3232c554d8ca1b5cdf') in 0.013111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001092 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation
+  artifactKey: Guid(8407a20867569fd49bddda21a451f43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation using Guid(8407a20867569fd49bddda21a451f43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b6275d4d87202ee2ebcd90f8a5e29c') in 0.006913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001010 seconds.
+  path: Assets/Assets/Skull Platform/_source/Materials/Platform_Skull_Dark.mat
+  artifactKey: Guid(077ada88bb0d1b1498ed3863532f415d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/_source/Materials/Platform_Skull_Dark.mat using Guid(077ada88bb0d1b1498ed3863532f415d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30f8d443be27d7152bd0266e74e30a2') in 0.026277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012276 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_N.tga
+  artifactKey: Guid(270dba9cddd76504188a0bc9a4718876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_N.tga using Guid(270dba9cddd76504188a0bc9a4718876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68b67e242485aeb37d0f7c34bb24ef5') in 0.020355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012355 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWShieldMtl_MetallicSmoothness.tga
+  artifactKey: Guid(d2838f7b5018d284ca9e4b1a78bd1e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWShieldMtl_MetallicSmoothness.tga using Guid(d2838f7b5018d284ca9e4b1a78bd1e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e847b14c0b3a7f7b68c1e337088cd53') in 0.016965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016546 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png
+  artifactKey: Guid(1c1f5fdffb8c5a944a978e8debb8fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png using Guid(1c1f5fdffb8c5a944a978e8debb8fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f0dda6083e275f9fbba234a4e93fc3') in 0.045325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000842 seconds.
+  path: Assets/Assets/blood/Horror Assets/StaffOfPain/Scenes/testScene.unity
+  artifactKey: Guid(77417d2d0cc305e48889ee74202822e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/StaffOfPain/Scenes/testScene.unity using Guid(77417d2d0cc305e48889ee74202822e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9416f15663b51813c7dd4eee89abf914') in 0.007291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033131 seconds.
+  path: Assets/Assets/Skull Platform/_source/Meshes/Materials
+  artifactKey: Guid(c899262ca73e0e440b5ae97edd29933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/_source/Meshes/Materials using Guid(c899262ca73e0e440b5ae97edd29933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6e5d6105885be03a7fc8b8ed4d3e2d') in 0.002454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010602 seconds.
+  path: Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Model/BARREL_1.fbx
+  artifactKey: Guid(a40073f4f9dff9142b02639940e7137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Model/BARREL_1.fbx using Guid(a40073f4f9dff9142b02639940e7137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01265035130df7d71479a8b469e3e355') in 0.035813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009797 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Fonts/Roboto-Thin.ttf
+  artifactKey: Guid(cd25d80d03a864fdd90534b28f15208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Fonts/Roboto-Thin.ttf using Guid(cd25d80d03a864fdd90534b28f15208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b922cc361da8fe6100d5edf4c7edd39') in 0.028128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020218 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/DebrisParticleSheet.png
+  artifactKey: Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/DebrisParticleSheet.png using Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ac3fb7e20cfb087d8549c68786b13b') in 0.021994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021039 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples
+  artifactKey: Guid(6c0b056137d972f46a0312ba21b6263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples using Guid(6c0b056137d972f46a0312ba21b6263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca5b09d74c50589b1ef7e5cccffee97') in 0.006717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019578 seconds.
+  path: Assets/Assets/Old Sea Port/Shaders/MFEP_Stream.shader
+  artifactKey: Guid(09216bdfd6523db4487ca393081c9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Shaders/MFEP_Stream.shader using Guid(09216bdfd6523db4487ca393081c9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbd09f2894e7954b6246fe501c6271d') in 0.009223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002010 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-6.exr
+  artifactKey: Guid(9f1c088b64d6b11439e9d4ff2ec3e0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-6.exr using Guid(9f1c088b64d6b11439e9d4ff2ec3e0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007c33520db4548d11bf39ce98ce3734') in 0.020138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012052 seconds.
+  path: Assets/Assets/TileableBricksWall
+  artifactKey: Guid(1d9854d5accb21c428322898b214f747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TileableBricksWall using Guid(1d9854d5accb21c428322898b214f747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576a5c4108d083cafef5d4c0f16c88fd') in 0.007876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002868 seconds.
+  path: Assets/Assets/Old Sea Port/textures/branch_maple.png
+  artifactKey: Guid(77a24ca2d6791064da084e1c5db814b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/branch_maple.png using Guid(77a24ca2d6791064da084e1c5db814b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e448df5768f53c31ff55885f12b05e0') in 0.015933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012712 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials/Material.013.mat
+  artifactKey: Guid(dba0a7bf497d6db4db183d907b3d9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials/Material.013.mat using Guid(dba0a7bf497d6db4db183d907b3d9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8702c3a6867c845a54624a354c574b3') in 0.013598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials
+  artifactKey: Guid(61b55cbb6a9d5364987450e8ef537a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials using Guid(61b55cbb6a9d5364987450e8ef537a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f4ea7b56bbc7ba216ac07ae88b478e') in 0.002378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033020 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Scripts/ExtinguishableFire.cs
+  artifactKey: Guid(01d79beb4399f964ea234855d877ee52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Scripts/ExtinguishableFire.cs using Guid(01d79beb4399f964ea234855d877ee52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b049a18b684c3b8193f3bf1aaf04bf5') in 0.014999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001466 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ef9f217e313d92c1fecdbbe651ffea') in 0.008271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001390 seconds.
+  path: Assets/Assets/Old Sea Port/prefabs/Materials/maple_leaves__BigTree_leaves_png.mat
+  artifactKey: Guid(65857fcb087857c43b1183c4a13dc959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/prefabs/Materials/maple_leaves__BigTree_leaves_png.mat using Guid(65857fcb087857c43b1183c4a13dc959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0138ba5d39e92447fb223289101c42e1') in 0.012636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011737 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Controllers
+  artifactKey: Guid(c684e269537fa254a899da909501f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Controllers using Guid(c684e269537fa254a899da909501f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be321334ad9c66a64c2a66e28d1cbfe') in 0.006934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000850 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials/No Name.mat
+  artifactKey: Guid(c4daa7dfae22e9140b23be9de6c8ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials/No Name.mat using Guid(c4daa7dfae22e9140b23be9de6c8ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68db0e979589c6a3c177e23ad337189') in 0.016362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061985 seconds.
+  path: Assets/Assets/blood/medieval chest/models
+  artifactKey: Guid(2c04706e8ef83ee46bba00c5db649bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/medieval chest/models using Guid(2c04706e8ef83ee46bba00c5db649bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa062fbc7861359fd5b632b7059dc12') in 0.008152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041818 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWSkeletonMtl_AlbedoTransparency.tga
+  artifactKey: Guid(9c6a3cc8faf9b8a459ffe4d4890965aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWSkeletonMtl_AlbedoTransparency.tga using Guid(9c6a3cc8faf9b8a459ffe4d4890965aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8327741d717fc6c2dbf00dae0577d3') in 0.024865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024054 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G.png
+  artifactKey: Guid(1169160aab534cd4aaf32738057f4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G.png using Guid(1169160aab534cd4aaf32738057f4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e9ae3904104c3e9dd355c1cdf87788') in 0.014476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004739 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_C.TGA
+  artifactKey: Guid(7b98973f5058c8d489993665865ac405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_C.TGA using Guid(7b98973f5058c8d489993665865ac405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886ca35c1e63fe999317ee43df1c40f2') in 0.014964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008963 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials/Material.011.mat
+  artifactKey: Guid(17de6bca0abf6ee41aedf0e88c2cba13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials/Material.011.mat using Guid(17de6bca0abf6ee41aedf0e88c2cba13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683510a6e0e487dcc0bb9a047530420b') in 0.012798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010356 seconds.
+  path: Assets/Assets/StickGrenadeModel/Assets/Model
+  artifactKey: Guid(39c509774e04b114c827ca294b045509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel/Assets/Model using Guid(39c509774e04b114c827ca294b045509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d47ac9b0373c926d031957023b90fb9') in 0.007038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010448 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWSkeletonMtl_AmbientOcclusion.tga
+  artifactKey: Guid(cfb9eaa29166bd743b260c63f0e234f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWSkeletonMtl_AmbientOcclusion.tga using Guid(cfb9eaa29166bd743b260c63f0e234f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd713c5c24429d69f52f1050c86681d0') in 0.021526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039894 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
+  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116534c645d2458f3db76b21c54de928') in 0.022198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002672 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf
+  artifactKey: Guid(fae067962e5934395be31c8aba4a3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf using Guid(fae067962e5934395be31c8aba4a3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca663057901b472fe98e4b92bece803') in 0.020620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040448 seconds.
+  path: Assets/Assets/Old Sea Port/textures/rope_normal.png
+  artifactKey: Guid(6c00261042754b84fbe58b6bf7064b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/rope_normal.png using Guid(6c00261042754b84fbe58b6bf7064b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9a8ad79f656de5bc0aade1985f107e') in 0.015009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023613 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03_N.tga
+  artifactKey: Guid(ebc9188e67cba8944bb3818d0e18fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03_N.tga using Guid(ebc9188e67cba8944bb3818d0e18fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59743afc461320fb31604c7cad77596e') in 0.015069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002778 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/StoneAlbedo.tif
+  artifactKey: Guid(d6971144598309840aa5627e0797e545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/StoneAlbedo.tif using Guid(d6971144598309840aa5627e0797e545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7c6610f096cf249ba4a314d5684f7f') in 0.015666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009483 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWShieldMtl_Normal.tga
+  artifactKey: Guid(4d886daee82a05b4a86c84061aec99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWShieldMtl_Normal.tga using Guid(4d886daee82a05b4a86c84061aec99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b21aba19e2ebef3d24b28c8cb6b4df') in 0.016513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017050 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Brick_wall_1.png
+  artifactKey: Guid(d5b0c3d98c949f64aacf75b764a72b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Brick_wall_1.png using Guid(d5b0c3d98c949f64aacf75b764a72b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf63d114d242046a61aea3e6667f605b') in 0.021272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004932 seconds.
+  path: Assets/Assets/SimpleSkeleton/material/texture/SimpleSkeleton_ao.png
+  artifactKey: Guid(a4024894f8e90c84ea7614833b27468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleSkeleton/material/texture/SimpleSkeleton_ao.png using Guid(a4024894f8e90c84ea7614833b27468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3453c7dcaf3630be12750fd05bf34bb0') in 0.016711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088523 seconds.
+  path: Assets/Assets/Skull Platform/_source/Materials
+  artifactKey: Guid(e97b1f9cb2407044d80fb8f0d0690f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/_source/Materials using Guid(e97b1f9cb2407044d80fb8f0d0690f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4501ed46b7d07277377dece339c6569e') in 0.006100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024839 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Canvas.png
+  artifactKey: Guid(86cdca6ff04d7b24084a7525617aabd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Canvas.png using Guid(86cdca6ff04d7b24084a7525617aabd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cac5cdbaf22cd71bfc24a7305cd6b98') in 0.013726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053155 seconds.
+  path: Assets/Assets/Old Sea Port/textures
+  artifactKey: Guid(8e2b73dbce04ae94fa8bdab263f278a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures using Guid(8e2b73dbce04ae94fa8bdab263f278a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826e92d2271a19f155913a9424bdea4a') in 0.002121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing
+  artifactKey: Guid(e441219f8ee70f04897efe1918fd5d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing using Guid(e441219f8ee70f04897efe1918fd5d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7f18a2166e55cb02f4d79fb915c7ef') in 0.007604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013780 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Log_End_2.png
+  artifactKey: Guid(6ce992fda00fd6b469f61ded5a41f4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Log_End_2.png using Guid(6ce992fda00fd6b469f61ded5a41f4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6ac5010e5372e42ba7541a8e8fa58a') in 0.020072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008329 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp.png
+  artifactKey: Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp.png using Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61861e2d1f251214002adeafd2a1877') in 0.017027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003462 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_right.tif
+  artifactKey: Guid(67de91b5513a4d8489588fb65de75caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_right.tif using Guid(67de91b5513a4d8489588fb65de75caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f572ec5c8991f477e655818c74723cf6') in 0.020754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000845 seconds.
+  path: Assets/Assets/StickGrenadeModel
+  artifactKey: Guid(c197ef85061807b49b343afe487fa5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel using Guid(c197ef85061807b49b343afe487fa5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6028068a567850a75c4dd7304e941c4a') in 0.006495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019303 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing_Profiles/Post-process Volume Profile_Old Sea Port.asset
+  artifactKey: Guid(c4272b84e8d2077489f21b1669082645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing_Profiles/Post-process Volume Profile_Old Sea Port.asset using Guid(c4272b84e8d2077489f21b1669082645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e0b8db1fca4ca7ce69086e0e65db49') in 0.010026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021147 seconds.
+  path: Assets/Assets/SkeletonWarrior/Mesh/Materials/M_SWSwordMtl.mat
+  artifactKey: Guid(ba424770312909240851cacd4499d0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Mesh/Materials/M_SWSwordMtl.mat using Guid(ba424770312909240851cacd4499d0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14000e674d2d6bddfe166edc78ed080d') in 0.027534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070370 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWSkeletonMtl_Normal.tga
+  artifactKey: Guid(fd8c98f82af36ba4dbb4e3e6bd5c380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWSkeletonMtl_Normal.tga using Guid(fd8c98f82af36ba4dbb4e3e6bd5c380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0f2d7f35b36dbdc266b9ce7e4d7b79') in 0.039673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009898 seconds.
+  path: Assets/Assets/SimpleSkeleton/material/texture/SimpleSkeleton_normal.png
+  artifactKey: Guid(82c47ffce5024b54abaf4454b85c7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleSkeleton/material/texture/SimpleSkeleton_normal.png using Guid(82c47ffce5024b54abaf4454b85c7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9a8713f6cae2282f1479740e0b8ee7') in 0.018104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059614 seconds.
+  path: Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Textures/BARREL_None_MetallicSmoothness.png
+  artifactKey: Guid(f031ea61f74fdf04d96b3e9df5ee7351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Textures/BARREL_None_MetallicSmoothness.png using Guid(f031ea61f74fdf04d96b3e9df5ee7351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7223e1c9d23b8580c77431151e7886f') in 0.019538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008671 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials/Material.007.mat
+  artifactKey: Guid(8a5ceffc86095b6408705389245585b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials/Material.007.mat using Guid(8a5ceffc86095b6408705389245585b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398df27e92c28027b5a6a36a5b6b4822') in 0.013319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004869 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Clouds Cookie.tif
+  artifactKey: Guid(e1ab493fddd99c84db03d848f6778e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Clouds Cookie.tif using Guid(e1ab493fddd99c84db03d848f6778e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815599f33477be6fe9b09ea1bdeaad63') in 0.015164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000869 seconds.
+  path: Assets/Assets/Skull Platform
+  artifactKey: Guid(e5a6195939187ea4c94c0706be62c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform using Guid(e5a6195939187ea4c94c0706be62c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213d824e32674645ebc7f92e1ab68b20') in 0.006527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001193 seconds.
+  path: Assets/Assets/SkeletonWarrior/Mesh/Materials/M_SWSkeletonMtl.mat
+  artifactKey: Guid(007efd8f0545db24bab796b77840565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Mesh/Materials/M_SWSkeletonMtl.mat using Guid(007efd8f0545db24bab796b77840565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400d4418cad56c37d6005dab56cc321c') in 0.084361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019050 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01_G.mat
+  artifactKey: Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01_G.mat using Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730fdae79fc8dd3434bde20c990f782e') in 0.033896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002700 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/BackgroundAlbedo.tif
+  artifactKey: Guid(184411e5cbfcef94d90c27171a6135d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/BackgroundAlbedo.tif using Guid(184411e5cbfcef94d90c27171a6135d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86cbd64b20abf253900dc1778716667') in 0.014104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014205 seconds.
+  path: Assets/Assets/blood/Dnk_Dev
+  artifactKey: Guid(25121d1f9b4416d4b9fe4a87be0d08cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev using Guid(25121d1f9b4416d4b9fe4a87be0d08cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c990cf1994773e4e80af9aa3903d317') in 0.007546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Scenes
+  artifactKey: Guid(afd0af8623dca094fa801fec404ac48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Scenes using Guid(afd0af8623dca094fa801fec404ac48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a6a818f0031afdaaba68d4a3251f60') in 0.006478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023233 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures
+  artifactKey: Guid(c3222dd3c95a7844380be1a7d52f2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures using Guid(c3222dd3c95a7844380be1a7d52f2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6906fd38bf0467821c65a8b77ef2adef') in 0.007856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001459 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials/Bark_Grey_1.mat
+  artifactKey: Guid(068173c2e4e9e924c9da4c150ea2e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials/Bark_Grey_1.mat using Guid(068173c2e4e9e924c9da4c150ea2e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c1d6b63c6946bc58f3594c96eb783e') in 0.012710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures
+  artifactKey: Guid(c8cd5c71c33b17b49a1768b464bbbd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures using Guid(c8cd5c71c33b17b49a1768b464bbbd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392f5ff252e1ea665063da4d844fc549') in 0.002381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001631 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Log_End_Occlusion.png
+  artifactKey: Guid(c64a4c58a7959f44d9510c8b3103c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Log_End_Occlusion.png using Guid(c64a4c58a7959f44d9510c8b3103c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c017bc2a411799bb5fad8abf59d590') in 0.014788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034338 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/SmokePuff02ParticleSheet.tif
+  artifactKey: Guid(26e206bd730800f4f82b828eb9f1c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/SmokePuff02ParticleSheet.tif using Guid(26e206bd730800f4f82b828eb9f1c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84eaa4cde85918be64250ba8a6bbb72') in 0.018422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005768 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Brick_wall_normal.png
+  artifactKey: Guid(aba0372edfc437b4e8a9003ecf26ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Brick_wall_normal.png using Guid(aba0372edfc437b4e8a9003ecf26ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91c265599856b6634104aeee994bc8c') in 0.019821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033080 seconds.
+  path: Assets/Assets/Skull Platform/Particles/_Prefabs
+  artifactKey: Guid(cafd10b4f3d80b0429659141dc34a8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/Particles/_Prefabs using Guid(cafd10b4f3d80b0429659141dc34a8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ed7b3cea249631c9fe0d31409362c5') in 0.007739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Assets/Skull Platform/Prefabs
+  artifactKey: Guid(ae3b34991e60ec54aa0222f6a6b87cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/Prefabs using Guid(ae3b34991e60ec54aa0222f6a6b87cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd22bf87d4ee3d80981d46b4e2c74d86') in 0.007103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028246 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/fleshNormals.tif
+  artifactKey: Guid(82b123d008de09948adc8d1433889121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/fleshNormals.tif using Guid(82b123d008de09948adc8d1433889121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd43a696bda7df121a3b5915f1f44731') in 0.014184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002649 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Rooftiles_Metallic.png
+  artifactKey: Guid(deb165eec12360141b03cc457f0efdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Rooftiles_Metallic.png using Guid(deb165eec12360141b03cc457f0efdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1ca1d7fbbfc4e23001116790d7f331') in 0.014085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009706 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie
+  artifactKey: Guid(5c80462f753efc44690560a25ce8ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie using Guid(5c80462f753efc44690560a25ce8ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4071fe8e0e060d7059301fde86e5a6c0') in 0.007587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021720 seconds.
+  path: Assets/Assets/Old Sea Port/textures/planks_1_Metallic.png
+  artifactKey: Guid(5af8b9960606490438aa36ffda4b3c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/planks_1_Metallic.png using Guid(5af8b9960606490438aa36ffda4b3c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91328eb4dd24be8390f260e42ef46826') in 0.014377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002125 seconds.
+  path: Assets/Animation/VillainAnimation.controller
+  artifactKey: Guid(bf06c367ad3237544a4d9c20900174ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/VillainAnimation.controller using Guid(bf06c367ad3237544a4d9c20900174ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8545a32ce9f5b5992b8016165cd47c39') in 0.009783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Skull Platform/_source
+  artifactKey: Guid(be5778b4c2a117643ae08fa1502c140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/_source using Guid(be5778b4c2a117643ae08fa1502c140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7809fdcf1ce76086bfa2e290771d34') in 0.006993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033199 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Sprites/UnityLogoSprite.tif
+  artifactKey: Guid(cafbb0229cd09a44a929ded63df426cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Sprites/UnityLogoSprite.tif using Guid(cafbb0229cd09a44a929ded63df426cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661ffba4c5d5fe25eb23d3d23c3b9852') in 0.024162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047503 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Wood Canopy.fbx
+  artifactKey: Guid(2fa7e1ef5baf7114593a7471e8065425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Wood Canopy.fbx using Guid(2fa7e1ef5baf7114593a7471e8065425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29875837c02a6420175af027c711254') in 0.031879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046226 seconds.
+  path: Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Textures/BARREL_None_Normal.png
+  artifactKey: Guid(fabd8e2bc76799e48a3a05707bbf38e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR/Content/3D/Props/Low Poly Wood Barrel/Textures/BARREL_None_Normal.png using Guid(fabd8e2bc76799e48a3a05707bbf38e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72c6a0f05740be7af1c618c5534030b') in 0.018191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024383 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_N.tga
+  artifactKey: Guid(9f55a5c8d4742cc47954204866783093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_N.tga using Guid(9f55a5c8d4742cc47954204866783093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33962bd42d850a697718869bc5f785b') in 0.021247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007237 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_back.tif
+  artifactKey: Guid(661663e7fa00ae64fa29cf54677bbef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_back.tif using Guid(661663e7fa00ae64fa29cf54677bbef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d25abbb8c1edce2beede99931454d86') in 0.027426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014390 seconds.
+  path: Assets/Assets/Monster_4/textures/t_body_Normal_OpenGL.png
+  artifactKey: Guid(811c674a25c6b3d43bc4fefafc6df8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_body_Normal_OpenGL.png using Guid(811c674a25c6b3d43bc4fefafc6df8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791c2f8a0e3bd526ad3f105b2df81ad5') in 0.023499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001955 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/Skybox.mat
+  artifactKey: Guid(d1385980456cd2044b282d73625457db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/Skybox.mat using Guid(d1385980456cd2044b282d73625457db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0df084583b298d146f9125fb1604f9') in 0.115055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034314 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial
+  artifactKey: Guid(7509f6c6d640a774f9dfaa8af8658a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial using Guid(7509f6c6d640a774f9dfaa8af8658a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6af4c7daa7a1469ab99e4949c70bc8c') in 0.007228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001740 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_E.png
+  artifactKey: Guid(fa12d4b1eb5b8f946ac445d33bf0eddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_E.png using Guid(fa12d4b1eb5b8f946ac445d33bf0eddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8f74fb7a0f446515b7d5a377305767') in 0.016001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022171 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials
+  artifactKey: Guid(0ae0ec82d0397174183a4c45753b8873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials using Guid(0ae0ec82d0397174183a4c45753b8873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5f608b89723886c0cce7b3ca43e313') in 0.002297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061978 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial
+  artifactKey: Guid(f9723f702b0ae204db594e4ca7c769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial using Guid(f9723f702b0ae204db594e4ca7c769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f639b87582ef34b19d116b5850590cb') in 0.008351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001223 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Animations/GunFire.anim
+  artifactKey: Guid(11b895841d895994da8259f4d1139127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Animations/GunFire.anim using Guid(11b895841d895994da8259f4d1139127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa52b64d7a12b3278a9c12e68fae8426') in 0.009335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016869 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/wood_tiled_02_n.tif
+  artifactKey: Guid(43cfa3b308732c941a0fbb4334ecefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/wood_tiled_02_n.tif using Guid(43cfa3b308732c941a0fbb4334ecefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6b5ea394bf93b31fa01efb2a0c8a60') in 0.021741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009987 seconds.
+  path: Assets/SampleScene
+  artifactKey: Guid(18f0944df8cb49d4a833a590bba31f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScene using Guid(18f0944df8cb49d4a833a590bba31f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54423dc441f6125e80ca7bbdf3b7e27a') in 0.007616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002841 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Canvas_Normal.png
+  artifactKey: Guid(bbbacd6962f68d84db49ce9cc7c21e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Canvas_Normal.png using Guid(bbbacd6962f68d84db49ce9cc7c21e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83777b2b90042020cc1a0ed53129300e') in 0.017710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002952 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-4.exr
+  artifactKey: Guid(ce0590de41061ed479a880ee6a062c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-4.exr using Guid(ce0590de41061ed479a880ee6a062c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b8ef9d4e46f46af18ab0a6ab94c55b') in 0.019076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002925 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Wall_01.obj
+  artifactKey: Guid(220440116ec5d2f4fa6d4c4b8a9e095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Wall_01.obj using Guid(220440116ec5d2f4fa6d4c4b8a9e095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae2ab72ea8f8a775d2617f0ceb2b8d6') in 0.037229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033813 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial
+  artifactKey: Guid(0151b31279cbbe64db23577e9163731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial using Guid(0151b31279cbbe64db23577e9163731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07369da9dc8f79dad7a71de45637f9b5') in 0.008888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022549 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_C.TGA
+  artifactKey: Guid(cae203f5c6ff2144a923288d09757339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_C.TGA using Guid(cae203f5c6ff2144a923288d09757339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d7097b74dc537f083f0f29d3a47caf') in 0.013984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077148 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/workbench.fbx
+  artifactKey: Guid(e11e5e8a26ce863468d2da27e1abe812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/workbench.fbx using Guid(e11e5e8a26ce863468d2da27e1abe812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e2c428d8dc65b9a9c2741b9012761e') in 0.017823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001069 seconds.
+  path: Assets/Assets/blood/Kraken XR
+  artifactKey: Guid(3e563c8cd6f42eb4fb04e222f96ba486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Kraken XR using Guid(3e563c8cd6f42eb4fb04e222f96ba486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f6e2c39f560bbe47887aed4b1404e6') in 0.007379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Assets/blood/medieval chest
+  artifactKey: Guid(f70fd72f46e755f48af33d724c9ae933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/medieval chest using Guid(f70fd72f46e755f48af33d724c9ae933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969f12ccd396b0b706aba0a04cf517ee') in 0.006533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013691 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_up.tif
+  artifactKey: Guid(2c93b54a9ce1c314b809b4c11cf9cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_up.tif using Guid(2c93b54a9ce1c314b809b4c11cf9cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4c1c35df6db9aa0f0d6acc3228c80c') in 0.020847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010559 seconds.
+  path: Assets/Assets/Skull Platform/_source/Textures
+  artifactKey: Guid(d179ddf2bd0715647b3e4b2b267c6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/_source/Textures using Guid(d179ddf2bd0715647b3e4b2b267c6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df211e93e0ac1952662183da2792802') in 0.002044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005266 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Cobblestone_Metallic.png
+  artifactKey: Guid(e1af42f80bed5a545b83e936c0de886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Cobblestone_Metallic.png using Guid(e1af42f80bed5a545b83e936c0de886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da996710e5cc6bedf603364eddf38776') in 0.013588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021433 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Wall_02.obj
+  artifactKey: Guid(2e7a8487ab4626741848c28337daebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Wall_02.obj using Guid(2e7a8487ab4626741848c28337daebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77131a03003d7b80e7494d0447caea3d') in 0.030031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002078 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Brick_Wall_Metallic.png
+  artifactKey: Guid(2c3cac3e2fe53f34089d2fe02fdfde58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Brick_Wall_Metallic.png using Guid(2c3cac3e2fe53f34089d2fe02fdfde58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964262c69a1c058ee18fb7ac189439db') in 0.019085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004402 seconds.
+  path: Assets/Assets/blood/Horror Assets/StaffOfPain/Scenes
+  artifactKey: Guid(c5e4b25fdf8f471448296cda66dd9d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/StaffOfPain/Scenes using Guid(c5e4b25fdf8f471448296cda66dd9d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7cff7f6e73b8701369538ed37e096a') in 0.002222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029799 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_left.tif
+  artifactKey: Guid(956c1c0113bcd4c4388a3c239be09820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes/Textures/Eerie/Eerie_left.tif using Guid(956c1c0113bcd4c4388a3c239be09820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f5ed9b439f0bb7e50dd0b361dabf0c') in 0.025460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002660 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/FleshSurface.mat
+  artifactKey: Guid(72bc6ef93dd24b24a92daaf12577d9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/FleshSurface.mat using Guid(72bc6ef93dd24b24a92daaf12577d9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f930c779c0635c3260ddd26d547b90bf') in 0.014620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007502 seconds.
+  path: Assets/Assets/Old Sea Port/prefabs/Materials
+  artifactKey: Guid(512944a7ee4e93141b1fb1afc82f7d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/prefabs/Materials using Guid(512944a7ee4e93141b1fb1afc82f7d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351492e5faecea366c16749d64ea3923') in 0.002240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001509 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Generic_Metal_1.png
+  artifactKey: Guid(81842ecd6dd0129418c83d747ce8c7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Generic_Metal_1.png using Guid(81842ecd6dd0129418c83d747ce8c7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99a695aad6e9337880f87f1e871afca') in 0.014179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011156 seconds.
+  path: Assets/Assets/Old Sea Port/textures/lamp_1.png
+  artifactKey: Guid(228fb3413d913f949866ba77fe8dfe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/lamp_1.png using Guid(228fb3413d913f949866ba77fe8dfe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d67f7a05f9c2302b2ad7ccbca0c424') in 0.018548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006327 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_N.TGA
+  artifactKey: Guid(598acd9ebe884f440a97da6f8426483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_N.TGA using Guid(598acd9ebe884f440a97da6f8426483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04111f2d0b3464d90aee64685e7ea2c4') in 0.016922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005633 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWSwordMtl_AmbientOcclusion.tga
+  artifactKey: Guid(d5d26e9547d91064097fe47b3f30cf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWSwordMtl_AmbientOcclusion.tga using Guid(d5d26e9547d91064097fe47b3f30cf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51461789fb4b56cf222076c5f0ef0e21') in 0.017829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011791 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/CloudsAlpha.tif
+  artifactKey: Guid(723753318dba7ab4eb68cfc0b10e71cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/CloudsAlpha.tif using Guid(723753318dba7ab4eb68cfc0b10e71cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43b4e0cdf97d648ca87c6774c5a76ef') in 0.015116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026377 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/Materials/Material.012.mat
+  artifactKey: Guid(37b721a9cdce06b439b1e9044e1bc705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/Materials/Material.012.mat using Guid(37b721a9cdce06b439b1e9044e1bc705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ff7acfb63b57452fb525ae6018b0e9') in 0.013827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001741 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01s.mat
+  artifactKey: Guid(80cb81cea798afb43987837e11469c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01s.mat using Guid(80cb81cea798afb43987837e11469c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2fb3e91df467e7f36f51d80ac12280') in 0.037605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030600 seconds.
+  path: Assets/Assets/readme.txt
+  artifactKey: Guid(4db59d78643335b4c985dc4bf00d82df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/readme.txt using Guid(4db59d78643335b4c985dc4bf00d82df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72c8cf84e7111dcf7cb6039b3675d95') in 0.008593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_01.obj
+  artifactKey: Guid(0d79e6eeb6fa3724482d6c497796a964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_01.obj using Guid(0d79e6eeb6fa3724482d6c497796a964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefe45fb191b959a7b1d3894d99e30a0') in 0.060089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062872 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/LightingData.asset
+  artifactKey: Guid(931ed40db9820e84fab169155396a755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/LightingData.asset using Guid(931ed40db9820e84fab169155396a755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891eae3a59c691feb9074002b5ad550d') in 0.012521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/SkeletonWarrior/Prefabs
+  artifactKey: Guid(96dc565e98f3e9649a4b1ae9e8f928f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Prefabs using Guid(96dc565e98f3e9649a4b1ae9e8f928f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0013d1b4ba53da7853eeb6c0beab53c2') in 0.009056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/M_BedBedding.mat
+  artifactKey: Guid(96ad2410114456e40aa2cc44f2fe16c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/M_BedBedding.mat using Guid(96ad2410114456e40aa2cc44f2fe16c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7fdbcace4cab4dd5c4183f0feda9db') in 0.029622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009174 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_MR.tga
+  artifactKey: Guid(ace021d20dc4fee42905fc84d876b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_MR.tga using Guid(ace021d20dc4fee42905fc84d876b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775ec78f2c98c1ccbb93ff67296b6116') in 0.020945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/SkeletonWarrior/Mesh/Materials
+  artifactKey: Guid(ca53b612073725c4a8b7959557b13360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Mesh/Materials using Guid(ca53b612073725c4a8b7959557b13360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a8f23cc3bdea26567bc5eef026dd49') in 0.002487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009572 seconds.
+  path: Assets/Assets/Old Sea Port/Water
+  artifactKey: Guid(4cb94b64f06fcac4b933c5ddfee69b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Water using Guid(4cb94b64f06fcac4b933c5ddfee69b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bad744080ca8db6b52f2c75f8ccc00') in 0.009062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045257 seconds.
+  path: Assets/SampleScene/NavMesh.asset
+  artifactKey: Guid(7b29ec34a4e3ddc4b96d485f40582bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScene/NavMesh.asset using Guid(7b29ec34a4e3ddc4b96d485f40582bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349f2633dded6573831e199940b1d6a2') in 0.008341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015054 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-0.exr
+  artifactKey: Guid(82079f3144d4e6a408834e1d92d39efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/ReflectionProbe-0.exr using Guid(82079f3144d4e6a408834e1d92d39efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec43e3d3e2367ea3f297123b355cd5d') in 0.023448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004517 seconds.
+  path: Assets/Assets/SkeletonWarrior/Mesh/SkeletonWarriorUnity.fbx
+  artifactKey: Guid(8bbf8b7b8b5f1144ba263c0e541f0452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Mesh/SkeletonWarriorUnity.fbx using Guid(8bbf8b7b8b5f1144ba263c0e541f0452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfb97fd2742985e7153282407022288') in 0.138967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003090 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_N.png
+  artifactKey: Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_N.png using Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e835c26c7b682bf23b6adfb6bfc69c8') in 0.018974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001741 seconds.
+  path: Assets/Assets/Old Sea Port/Materials/Iron_1.mat
+  artifactKey: Guid(d538140f4435d554bb657ee6910ad9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Materials/Iron_1.mat using Guid(d538140f4435d554bb657ee6910ad9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e389f20310cb959884c48194898198a5') in 0.014347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027817 seconds.
+  path: Assets/Assets/Monster_4/textures/t_plank_ao.png
+  artifactKey: Guid(b17a4210e6422834b949e5b9a0859447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_plank_ao.png using Guid(b17a4210e6422834b949e5b9a0859447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0fc4a9bdd23f8228860914508f8dcf') in 0.015830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032563 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01.tga
+  artifactKey: Guid(71fcdacc93daf0e46bca8ddba2ef798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01.tga using Guid(71fcdacc93daf0e46bca8ddba2ef798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20058ab2c07e221210a4271e2c309a28') in 0.015919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027972 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/RoundSoftParticle.tif
+  artifactKey: Guid(82c211cd7b28abb4a9e4ee77e8bd1b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/RoundSoftParticle.tif using Guid(82c211cd7b28abb4a9e4ee77e8bd1b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276dbe03467807354e832081043e785f') in 0.013179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017211 seconds.
+  path: Assets/Assets/Old Sea Port/Skyboxes
+  artifactKey: Guid(c5e3c35de11186b47b70b4e2e226ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/Skyboxes using Guid(c5e3c35de11186b47b70b4e2e226ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490d8817ab0b9d62a9e2412f5ec69e59') in 0.007091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017628 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03.tga
+  artifactKey: Guid(ce657f6d6152f1f4da298034f080aa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03.tga using Guid(ce657f6d6152f1f4da298034f080aa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd75ecde322202e849a965f343df39b') in 0.014609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064228 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWSkeletonMtl_MetallicSmoothness.tga
+  artifactKey: Guid(1d7d6acd58085ef488e6b1d980ffa20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWSkeletonMtl_MetallicSmoothness.tga using Guid(1d7d6acd58085ef488e6b1d980ffa20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbfd0db7d6841f0d6f6b04ac6c15584') in 0.036473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017463 seconds.
+  path: Assets/Assets/SkeletonWarrior/Textures/T_SWSwordMtl_Normal.tga
+  artifactKey: Guid(d8881ee79e6542148852c0cbd5190091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Textures/T_SWSwordMtl_Normal.tga using Guid(d8881ee79e6542148852c0cbd5190091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7216c12b98b01336ded5fdedd5a04e4') in 0.022505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071491 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial
+  artifactKey: Guid(77b2008fc6197f44a82570617d274355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial using Guid(77b2008fc6197f44a82570617d274355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1e4243857e743ea8606f42116a0f17') in 0.007705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Scripts
+  artifactKey: Guid(bd22c1c7cfb6a0f469bbe1805930df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Scripts using Guid(bd22c1c7cfb6a0f469bbe1805930df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6cb0f2653c642dbf27d69374b01695') in 0.007834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing_Profiles
+  artifactKey: Guid(dcc93437a92918c46a2e927c5749223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing_Profiles using Guid(dcc93437a92918c46a2e927c5749223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f34e125c59955d5575827e287ab9e0f') in 0.007101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126189 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures
+  artifactKey: Guid(b570582a843ea1143a2446d355eda99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures using Guid(b570582a843ea1143a2446d355eda99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cccf810c396d27a6819128e13f450c') in 0.002015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016692 seconds.
+  path: Assets/Assets/Old Sea Port/textures/dirt_1_specular.png
+  artifactKey: Guid(aa8cd394dd912294a9201bcd17b8cedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/dirt_1_specular.png using Guid(aa8cd394dd912294a9201bcd17b8cedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024a25736cf5b3d93e98b64bf0d60733') in 0.015210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052265 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01.mat
+  artifactKey: Guid(ae4076d094d20da4da7dc8fa3ae36015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01.mat using Guid(ae4076d094d20da4da7dc8fa3ae36015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8791dfafe85a00788c8d96b1ab6d5766') in 0.025474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011941 seconds.
+  path: Assets/Assets/Monster_4/Mesh
+  artifactKey: Guid(150c5898c7f17794e983eb20aa7aaed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/Mesh using Guid(150c5898c7f17794e983eb20aa7aaed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f1acabf342a589b0b08d0809a92d71') in 0.002061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038983 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_R.TGA
+  artifactKey: Guid(b8bb4830a55b4464fbf9f91f387148e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_R.TGA using Guid(b8bb4830a55b4464fbf9f91f387148e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e8f9ed2a33ffaecfde863faaff699d') in 0.014490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Monster_4/textures
+  artifactKey: Guid(d1e67944e1af09241aa41dc6e9128d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures using Guid(d1e67944e1af09241aa41dc6e9128d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd6c67dfd7886f818c34362f53f7245') in 0.001923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067696 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/WoodSurface.mat
+  artifactKey: Guid(ce4b77858ec6c0f469b07b034c21a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Materials/WoodSurface.mat using Guid(ce4b77858ec6c0f469b07b034c21a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fd91bf8ee6ab9b178eeab70287ac5a') in 0.026289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009519 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Animations
+  artifactKey: Guid(b7866cf1519fdbc4e9e83f3e1994b30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Animation/Animations using Guid(b7866cf1519fdbc4e9e83f3e1994b30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43411322cb28abc59ee980474be747d0') in 0.006767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001465 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Tile02.mat
+  artifactKey: Guid(6eedf1229b2548749afd34673f053a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Tile02.mat using Guid(6eedf1229b2548749afd34673f053a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c4d7b8fc9bd497640b57ecca337f9b') in 0.017516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008951 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01.mat
+  artifactKey: Guid(a79fd100eebc3e946a5d6df1a792fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01.mat using Guid(a79fd100eebc3e946a5d6df1a792fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4cf86765ef615aaf25e554d07f83de') in 0.027004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001924 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/tower.fbx
+  artifactKey: Guid(6d50435c0af55b74f95f6881ff19d8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/tower.fbx using Guid(6d50435c0af55b74f95f6881ff19d8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463c266ef1ddb6a426ed3baca2cde6d7') in 0.019076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021035 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Generic_Metal_3.png
+  artifactKey: Guid(aad4f261a7e759645bea7a21c20b02b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Generic_Metal_3.png using Guid(aad4f261a7e759645bea7a21c20b02b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1474214d59e502b53a7197e745cc013') in 0.013098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077421 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Med_box_01.mat
+  artifactKey: Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Med_box_01.mat using Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3701007e0b8e2fc84c9efb298055b4') in 0.030789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007770 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/WoodAlbedo.tif
+  artifactKey: Guid(3e8f2684da783fd4284f90bce28de4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/WoodAlbedo.tif using Guid(3e8f2684da783fd4284f90bce28de4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8383258e59c1a4e42915c3db578715') in 0.020407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043983 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/WoodNormals.tif
+  artifactKey: Guid(d6a42d710971e07418e30f9a047b65b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/WoodNormals.tif using Guid(d6a42d710971e07418e30f9a047b65b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa8b1aaef50c1b61b39130fe7e588fc') in 0.026929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026233 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif
+  artifactKey: Guid(3bc01580ce4f1834eb3562397607f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif using Guid(3bc01580ce4f1834eb3562397607f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3c24fa03b03ca2ae3bf513c7f42f1e') in 0.020895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Skull Platform/Particles/Materials
+  artifactKey: Guid(ef93a8fb3c6942e428d927fb3ce656cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skull Platform/Particles/Materials using Guid(ef93a8fb3c6942e428d927fb3ce656cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c150f8a42fd58e8c64f8b01ec894954') in 0.001990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010464 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/CloudsNormals.tif
+  artifactKey: Guid(8806362d7e9ad5141b23999ce01adc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/CloudsNormals.tif using Guid(8806362d7e9ad5141b23999ce01adc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc08a8401d2748e4a0587be6b005a38') in 0.016396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001543 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/CloudsOcclusion.tif
+  artifactKey: Guid(86ad23c623f950a4997067186e283be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Textures/CloudsOcclusion.tif using Guid(86ad23c623f950a4997067186e283be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c824b29303958916d92a7f42a61819') in 0.013856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003923 seconds.
+  path: Assets/Assets/Old Sea Port/textures/branch_maple_translucency.png
+  artifactKey: Guid(a73439b1d26414547bdcf00ff8a5bd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/branch_maple_translucency.png using Guid(a73439b1d26414547bdcf00ff8a5bd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e856da745278ce4dc917eca065a2596') in 0.016685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003288 seconds.
+  path: Assets/Assets/Old Sea Port/textures/Rooftiles.png
+  artifactKey: Guid(df3dcc1fbf4ce1d4aa1361159004567b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/Rooftiles.png using Guid(df3dcc1fbf4ce1d4aa1361159004567b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5bbd0c17a5a13b11fa6ea7eba3bace') in 0.013597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001772 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/tower_short.fbx
+  artifactKey: Guid(bd57b9b38c2b9504fba073fc57c09738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/tower_short.fbx using Guid(bd57b9b38c2b9504fba073fc57c09738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572780e2006ff62732270a2416366d98') in 0.019581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001523 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial
+  artifactKey: Guid(8843da9524c3cec4eaebc0bf81cc4e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial using Guid(8843da9524c3cec4eaebc0bf81cc4e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95284daf693e1ca3d524c6e4186c404b') in 0.008051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004791 seconds.
+  path: Assets/Assets/StickGrenadeModel/Assets/Model/StickGrenade.fbx
+  artifactKey: Guid(f5282d4da4819ad4a99db9a26494f195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel/Assets/Model/StickGrenade.fbx using Guid(f5282d4da4819ad4a99db9a26494f195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f412c1810a18525ec7dc324e1177436') in 0.026038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004911 seconds.
+  path: Assets/Assets/Monster_4/textures/t_body_Emissive.png
+  artifactKey: Guid(e39ca0623fbc0f24695efd5184b38c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_body_Emissive.png using Guid(e39ca0623fbc0f24695efd5184b38c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae03d69286b1efd5db4cb6cfcbbd664') in 0.013458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002727 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/log_1.fbx
+  artifactKey: Guid(c4cc542ae7512ef458debcc6dee326dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/log_1.fbx using Guid(c4cc542ae7512ef458debcc6dee326dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610baf0d53e0980268b5cd8bfe3ff2eb') in 0.024180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001180 seconds.
+  path: Assets/Assets/blood/medieval chest/Materials
+  artifactKey: Guid(6e232dea869f01c4ba6f566c24c62d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/medieval chest/Materials using Guid(6e232dea869f01c4ba6f566c24c62d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f289523afb38327029043007ecd9c44') in 0.002162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006552 seconds.
+  path: Assets/Assets/Old Sea Port/scenes/Dock Thing/Lightmap-0_comp_light.exr
+  artifactKey: Guid(80cde5ab4f5ad6f44a0379bb6efaff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/scenes/Dock Thing/Lightmap-0_comp_light.exr using Guid(80cde5ab4f5ad6f44a0379bb6efaff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca1bc8f7e604c992e840999d8bc67b3') in 0.022955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011496 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_M.tga
+  artifactKey: Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_M.tga using Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfca79a8ecaf2766bae199b96e82f502') in 0.014649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008842 seconds.
+  path: Assets/Assets/SimpleSkeleton
+  artifactKey: Guid(84bb0c7c23b04b14ba9b29288099b34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleSkeleton using Guid(84bb0c7c23b04b14ba9b29288099b34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c73e7093658c410189f0b54cb0d7440') in 0.008001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002448 seconds.
+  path: Assets/Assets/Old Sea Port/textures/rope.png
+  artifactKey: Guid(8bb74e304c595b9459763b73676acba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/textures/rope.png using Guid(8bb74e304c595b9459763b73676acba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3b757e1ef935aa77c7f8bb7338f45a') in 0.011801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038421 seconds.
+  path: Assets/Assets/Monster_4/textures/t_body_MetallicSmootness.png
+  artifactKey: Guid(dd1fc780f2fd0834a8b5ddc76f5be8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Monster_4/textures/t_body_MetallicSmootness.png using Guid(dd1fc780f2fd0834a8b5ddc76f5be8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269c0f20327bd270536b7056abf74fd8') in 0.017330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051714 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_02.obj
+  artifactKey: Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_02.obj using Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f92a89f5b83a34f8c78cc9c1fedb8b') in 0.072115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039165 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_A.tga
+  artifactKey: Guid(6a09d6b8923975e4b9af12a04e9d39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_A.tga using Guid(6a09d6b8923975e4b9af12a04e9d39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a843f3e4c5a73b412d4aded0badd149') in 0.017078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001244 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Shaders
+  artifactKey: Guid(ce08deff3b27b76418355fad4f2a4c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Shaders using Guid(ce08deff3b27b76418355fad4f2a4c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34852b5d7d2da9e896c51740d65a5d6c') in 0.003380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/Assets/StickGrenadeModel/Assets/Materials/StickGrenadeMaterial.mat
+  artifactKey: Guid(bc13f38088cc9d8499324dca25c8c141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StickGrenadeModel/Assets/Materials/StickGrenadeMaterial.mat using Guid(bc13f38088cc9d8499324dca25c8c141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f143fff4ba18dc4c0e30139b4953138e') in 0.020192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001780 seconds.
+  path: Assets/Assets/blood/Horror Assets/StaffOfPain/Documentation/README.rtf
+  artifactKey: Guid(dc0112c4db8569f4f8dd633c1c4e8c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Horror Assets/StaffOfPain/Documentation/README.rtf using Guid(dc0112c4db8569f4f8dd633c1c4e8c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d801d7099b4b749f0d0468a637b39b') in 0.050981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011604 seconds.
+  path: Assets/Assets/Old Sea Port/EffectExamples/Shared/Fonts
+  artifactKey: Guid(478f74dba370047e1b323cb1a9a0af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/EffectExamples/Shared/Fonts using Guid(478f74dba370047e1b323cb1a9a0af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23ffd1d262d025c74c6cd75fb6ff5a0') in 0.007172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030339 seconds.
+  path: Assets/Assets/Old Sea Port/mesh/tower_extension.fbx
+  artifactKey: Guid(69aa8b9d7d649a14b937cf6e269319c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Old Sea Port/mesh/tower_extension.fbx using Guid(69aa8b9d7d649a14b937cf6e269319c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5ea0eb11462016d1008910e8dac367') in 0.018351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019992 seconds.
+  path: Assets/Assets/SkeletonWarrior/Mesh/Materials/M_SWShieldMtl.mat
+  artifactKey: Guid(1e912631a35879740a8a2ce63cabbbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SkeletonWarrior/Mesh/Materials/M_SWShieldMtl.mat using Guid(1e912631a35879740a8a2ce63cabbbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3857d1e15c77ce8e01635dc9fa56117') in 0.028960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022073 seconds.
+  path: Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_M.png
+  artifactKey: Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/blood/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_M.png using Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92827856686ff004fc5f05553dbebc4c') in 0.021437 seconds 
